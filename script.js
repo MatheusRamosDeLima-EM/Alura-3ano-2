@@ -86,7 +86,6 @@ const perguntas = [
 
 let atual = 0;
 let perguntaAtual;
-let historia;
 let historiaFinal = "";
 
 function mostraPergunta() {
@@ -113,7 +112,7 @@ function mostraAlternativas(){
 
 function respostaSelecionada(opcaoSelecionada) {
   const afirmacoes = opcaoSelecionada.afirmacao;
-  historia += afirmacoes + "";
+  historiaFinal += afirmacoes + "";
   atual++;
   mostraPergunta();
   console.log("Deu certo");
