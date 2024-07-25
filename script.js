@@ -97,6 +97,7 @@ function mostraPergunta() {
   caixaPerguntas.textContent = perguntaAtual.enunciado;
   caixaAlternativas.textContent = "";
   mostraAlternativas();
+  console.log("Deu certo");
 }
 
 function mostraAlternativas(){
@@ -106,6 +107,7 @@ function mostraAlternativas(){
       botaoAlternativas.addEventListener("click", () => respostaSelecionada(alternativa));
       caixaAlternativas.appendChild(botaoAlternativas);
   }
+  console.log("Deu certo");
 }
 
 function respostaSelecionada(opcaoSelecionada) {
@@ -113,12 +115,14 @@ function respostaSelecionada(opcaoSelecionada) {
   historia += afirmacoes + "";
   atual++;
   mostraPergunta();
+  console.log("Deu certo");
 }
 
 function mostraResultado() {
   caixaPerguntas.textContent = "Em 2049...";
   textoResultado.textContent = historiaFinal;
   caixaAlternativas.textContent = "";
+  console.log("Deu certo");
 }
 
 mostraPergunta();
