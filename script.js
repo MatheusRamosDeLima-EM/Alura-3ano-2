@@ -11,11 +11,11 @@ const perguntas = [
       alternativas: [
         {
           texto: "Isso é assustador!",
-          afirmacao: "afirmação",
+          afirmacao: "Achou assustador pensar que máquinas agora poderiam mudar o mundo.",
         },
         {
           texto: "Isso é maravilhoso!",
-          afirmacao: "afirmação",
+          afirmacao: "Achou maravilhoso pensar que máquinas agora poderiam mudar o mundo.",
         },
       ],
     },
@@ -26,12 +26,12 @@ const perguntas = [
         {
           texto:
             "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-          afirmacao: "afirmação",
+          afirmacao: "Percebeu que a IA consegue explicar termos complicados de forma simplificada e isso ajudou muito suas pesquisas sobre assuntos complexos.",
         },
         {
           texto:
             "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-          afirmacao: "afirmação",
+          afirmacao: "Percebeu que a IA não consegue explicar termos complicados de forma simplificada e resolveu buscar o conhecimento necessário sem o uso de IA.",
         },
       ],
     },
@@ -42,12 +42,12 @@ const perguntas = [
         {
           texto:
             "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-          afirmacao: "afirmação",
+          afirmacao: "Acredita que a IA irá melhorar a vida das pessoas através da criação de novas oportunidades de emprego e aperfeiçoamento das habilidades humanas.",
         },
         {
           texto:
             "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-          afirmacao: "afirmação",
+          afirmacao: "Acredita que a IA irá piorar a vida das pessoas através da perda de novas oportunidades de emprego e desvalorização das habilidades humanas.",
         },
       ],
     },
@@ -58,11 +58,11 @@ const perguntas = [
         {
           texto:
             "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-          afirmacao: "afirmação",
+          afirmacao: "Aborda a realização de trabalhos e projetos com o uso de ferramentas clássicas como Paint.",
         },
         {
           texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-          afirmacao: "afirmação",
+          afirmacao: "Aborda a realização de trabalhos e projetos com o uso de adicional de IA com o uso de ferramentas como o ChatGPT.",
         },
       ],
     },
@@ -73,12 +73,12 @@ const perguntas = [
         {
           texto:
             "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-          afirmacao: "afirmação",
+          afirmacao: "Acredita fielmente na IA e não percebe que ela pode apresentar erros apesar de um prompt bem feito.",
         },
         {
           texto:
             "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-          afirmacao: "afirmação",
+          afirmacao: "Não confia completamente no uso da IA e sabe que ela pode apresentar erros, mesmo com o uso de tecnologia avançada.",
         },
       ],
     },
